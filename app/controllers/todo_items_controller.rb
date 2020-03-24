@@ -14,7 +14,7 @@ def destroy
 		flash[:error] = "Todo List item could not be deleted."
 	end 
 	redirect_to @todo_list 
-	end 	
+end 	
 private 
 
 def set_todo_list
